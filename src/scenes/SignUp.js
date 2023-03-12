@@ -101,7 +101,7 @@ export default function SignUp() {
 							sx={{ textTransform: "none", mx: "18px", mt: "50px", mb: "63px" }}
 							onClick={() => handleSignUp()}
 						>
-							Log In
+							Sign Up
 						</Button>
 					}
 				></Card>
