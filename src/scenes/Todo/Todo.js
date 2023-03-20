@@ -16,7 +16,6 @@ import { useSnackbar } from "notistack";
 
 import Card from "components/Card";
 import Layout from "components/Layout";
-import PageCenteredProgress from "components/PageCenteredProgress";
 
 import { useTodoApi } from "api/todo";
 import useCatchError from "api/useCatchError";

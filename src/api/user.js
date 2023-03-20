@@ -1,4 +1,4 @@
-import { Config, useFetchAuthorized } from "services";
+import { Config } from "services";
 
 import { errorHandler } from "./errorHandler";
 

@@ -65,24 +65,6 @@ const theme = createTheme({
 		},
 		fontFamily: ["MarkPro", "sans-serif"].join(","),
 	},
-	components: {
-		MuiButton: {
-			styleOverrides: {
-				root: {
-					borderRadius: 8,
-					textTransform: "none",
-				},
-			},
-		},
-		MuiPaper: {
-			styleOverrides: {
-				root: {
-					borderRadius: 8,
-					boxShadow: "none",
-				},
-			},
-		},
-	},
 });
 
 const { persistor, store } = configureRedux(reducer, {
